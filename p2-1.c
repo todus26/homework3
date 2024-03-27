@@ -18,7 +18,7 @@ void main(void)
     printf("--------------------------------------\n");
     printf(" sum1(input, MAX_SIZE) \n");
     printf("--------------------------------------\n");
-    printf("input \t= %p\n", input); //배열의 이름 = 배열의 0번째 값의 주소
+    printf("input \t= %p\n", input); //배열의 이름 = 배열의 0번째 값의 주소.
     answer = sum1(input, MAX_SIZE); //answer에 sum1 함수의 리턴 값 할당
     printf("The sum is: %f\n\n", answer); //answer 값 출력
     

@@ -33,7 +33,7 @@ void main()
     printf("plist[1]           = %p\n", plist[1]); //초기화시킨 null
     printf("plist[2]           = %p\n", plist[2]); //초기화시킨 null
     printf("plist[3]           = %p\n", plist[3]); //초기화시킨 null
-    printf("plist[4]           = %p\n", plist[4]); //초기화시킨 null
+    printf("plist[4]           = %p\n", plist[4]); //초기화시킨 null.
 
     free(plist[0]);
 }

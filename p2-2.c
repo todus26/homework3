@@ -31,6 +31,6 @@ void print_one(int *ptr, int rows)
     int i;
     printf ("Address \t Contents\n");
     for (i = 0; i < rows; i++)
-        printf("%p \t  %5d\n", ptr + i, *(ptr + i)); //one의 값과 주소 출력
+        printf("%p \t  %5d\n", ptr + i, *(ptr + i)); //one의 값과 주소 출력.
     printf("\n");
 }

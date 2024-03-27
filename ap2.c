@@ -20,7 +20,7 @@ void main()
     printf("list + 2 \t= %p\n", list+2); //list[2]의 주소
     printf("list + 3 \t= %p\n", list+3); //list[3]의 주소
     printf("list + 4 \t= %p\n", list+4); //list[4]의 주소
-    printf("&list[4] \t= %p\n", &list[4]); //list[4]의 주소
+    printf("&list[4] \t= %p\n", &list[4]); //list[4]의 주소.
     
     free(plist[0]); //메모리 할당 해제
 }
